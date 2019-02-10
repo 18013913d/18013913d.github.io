@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Times;
+  }
+
+body {
+	margin: 0;
+	background-image: url("../bgi.jpeg");
+	background-position: center;
+}
+/* Style the header */
+
+header {
+	background-image: url("../BannerHome.jpeg");
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	text-align: center;
+}
+#coursecode {
+	text-align: right;
+	padding: 10px;
+}
+span{
+	background-color: rgba(240,248,255,0.6);
+	font-family: Castellar;
+}
+h1{ 
+	text-align: center;
+	margin: 100px;
+
+}
+h4 {
+	text-align: center;
+	margin: 10px;
+	font-family: Castellar;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: maroon;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lavenderblush;
+  color: black;
+}
+.leftnav {
+  overflow: hidden;
+  background-color: rgba(210,160,160,.8);
+}
+.leftnav a:hover {
+  background-color: lavenderblush;
+  color: black;
+}
+.leftnav a {
+  display: block;
+  padding: 14px 16px;
+  margin: 0;
+}
+ul.topnavlist, ul.leftnavlist {
+	float: center;
+	list-style-type: none;
+}
+ul.topnavlist li {
+	display: inline-block;
+}
+ul.leftnavlist li, ul.researchinterestslist li {
+	display: block;
+}	
+ul.topnavlist li a, ul.leftnavlist li a {
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	font-family: Times;
+	transition: 0.4s;
+	font-family: Imprint MT Shadow;
+	font-size: larger;
+	text-decoration: underline;	
+}
+.copyright {
+  overflow: hidden;
+  background-color: mistyrose;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+h3#myprojects {
+	text-align: center;
+	padding: 5px;
+	font-family: Imprint MT Shadow;
+	font-size: larger;
+	text-decoration: underline;
+	background-color: lavenderblush;
+}
+.columncontainer{
+	margin: auto;
+	width: 70%;
+	
+}
+.column1 {
+	float: left;
+	width: 20%;
+	margin: 0;
+}
+.column2 {
+	background-image: url("../main division bg.jpg");
+	background-position: center;
+	background-size: cover;
+	float: left;
+	width: 80%;
+	height: auto;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;	
+}
+/* Responsive layout - makes the three columns stack
+ * on top of each other instead of next to each other
+ */
+@media screen and (max-width:600px) {
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }  
+}
+.presonalinfo {
+	position: relative;
+	left: 10%;
+	margin-top: 20px;
+}
+table, th, td {
+  border-top: 20px;
+  width: 80%;
+}
+th, td {
+  text-align: left;
+}
+img{
+	float: right;
+	position: relative;
+	margin-right: 20%;
+}
+.column2part2{
+	margin-bottom: 20%;
+}
+h2#title{
+	position: relative;
+	left: 10%;
+	margin-top: 10%;
+}
+.researchinterestslist{
+	position: relative;
+	width: 80%;
+	left: 15%;
+	margin-top: 20px;
+}
+
