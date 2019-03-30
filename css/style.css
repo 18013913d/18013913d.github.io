@@ -4,14 +4,14 @@
   padding: 0;
   font-family: Times;
   }
-
+/* Style the body */
 body {
 	margin: 0;
+	width: 100%;
 	background-image: url("../bgi.jpeg");
 	background-position: center;
 }
 /* Style the header */
-
 header {
 	background-image: url("../BannerHome.jpeg");
 	background-position: center;
@@ -19,43 +19,47 @@ header {
 	margin: 0;
 	text-align: center;
 }
+.mySlides {
+	display:none;
+}
+/* Style the LSGI3292A */
 #coursecode {
 	text-align: right;
 	padding: 10px;
 }
+/* add background color for the motto */
 span{
 	background-color: rgba(240,248,255,0.6);
 	font-family: Castellar;
 }
+/* Style the motto*/
 h1{ 
 	text-align: center;
 	margin: 100px;
-
 }
+/* Style the motto author */
 h4 {
 	text-align: center;
 	margin: 10px;
 	font-family: Castellar;
 }
-
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: maroon;
 }
-
 /* Style the topnav links */
 .topnav a {
   display: block;
   padding: 14px 16px;
   margin: 0;
 }
-
 /* Change color on hover */
 .topnav a:hover {
   background-color: lavenderblush;
   color: black;
 }
+/* Same for the left navigation */
 .leftnav {
   overflow: hidden;
   background-color: rgba(210,160,160,.8);
@@ -69,6 +73,7 @@ h4 {
   padding: 14px 16px;
   margin: 0;
 }
+/* Style the navigation lists */
 ul.topnavlist, ul.leftnavlist {
 	float: center;
 	list-style-type: none;
@@ -83,12 +88,12 @@ ul.topnavlist li a, ul.leftnavlist li a {
 	text-align: center;
 	color: #fff;
 	border: 1px solid #fff;
-	font-family: Times;
-	transition: 0.4s;
+	transition: 0.8s;
 	font-family: Imprint MT Shadow;
 	font-size: larger;
 	text-decoration: underline;	
 }
+/* Style the footer */
 .copyright {
   overflow: hidden;
   background-color: mistyrose;
@@ -98,18 +103,22 @@ ul.topnavlist li a, ul.leftnavlist li a {
   left: 0;
   bottom: 0;
 }
+/* Style the title of left navigation */
 h3#myprojects {
 	text-align: center;
-	padding: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 	font-family: Imprint MT Shadow;
 	font-size: larger;
 	text-decoration: underline;
 	background-color: lavenderblush;
 }
+/* Style the columns */
 .columncontainer{
 	margin: auto;
 	width: 70%;
-	
 }
 .column1 {
 	float: left;
@@ -122,7 +131,7 @@ h3#myprojects {
 	background-size: cover;
 	float: left;
 	width: 80%;
-	height: auto;
+	height: 500px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -141,11 +150,14 @@ h3#myprojects {
     width: 100%;
   }  
 }
+/* the personal information will be shown as a table */
 .presonalinfo {
+	width:auto;
+	padding-left: 10%;
 	position: relative;
-	left: 10%;
-	margin-top: 20px;
+	margin-top: 5%;
 }
+/* Style the table */
 table, th, td {
   border-top: 20px;
   width: 80%;
@@ -153,14 +165,13 @@ table, th, td {
 th, td {
   text-align: left;
 }
+/* Style my image */
 img{
 	float: right;
 	position: relative;
-	margin-right: 20%;
+	margin-right: 5%;
 }
-.column2part2{
-	margin-bottom: 20%;
-}
+/* Style the research interest list */
 h2#title{
 	position: relative;
 	left: 10%;
@@ -172,4 +183,46 @@ h2#title{
 	left: 15%;
 	margin-top: 20px;
 }
-
+script{
+	float: center;
+}
+#enteredname{
+	text-align: center;
+}
+.searchcontainer{
+	float: right;
+	clear: left;
+	margin-top: 10px;;
+	padding: 0;
+	width: 250px;
+}
+#googlesearch{
+	float: right;
+	margin-right:10%;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+	font-size:18px;
+	font-weight: bold;
+}
+#searchbox{
+	font-family:Times;
+	font-size: 16px;
+	width: 200px;
+	height: 30px;
+}
+#CR{
+	float: none;
+	display: inline;
+}
+#timendate{
+	right:1%;
+	display: inline;
+	position:absolute;
+	z-index:1;
+}
+.fb-share-button{
+	margin: 1%;
+}
+.courseinfo{
+	margin:2%;
+}
